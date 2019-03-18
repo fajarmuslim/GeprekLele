@@ -1,0 +1,50 @@
+entity
+
+account
+ID akun yang bersifat unik, 
+nama, 
+email, 
+nomor telepon,
+alamat, 
+wallet, 
+foto.
+
+account is a 
+penjual (nomor rekening)
+pembeli (jumlah poin yang dimiliki)
+
+
+barang
+ID barang, 
+nama barang, 
+foto-foto barang, 
+deskripsi barang, 
+harga barang, 
+stok yang tersedia
+
+perusahaan kurir
+ID perusahaan
+nama perusahaan
+
+layanan
+ID layanan, 
+nama layanan, 
+harga layanan, 
+durasi waktu pengantaran  
+
+transaksi
+
+transaksi line
+nomor baris, 
+jumlah barang yang dibeli.
+
+
+voucher
+kode voucher,
+jumlah potongan harga
+
+review
+ID review, 
+konten, 
+rating, 
+waktu pemberian review.
